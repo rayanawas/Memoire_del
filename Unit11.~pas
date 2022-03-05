@@ -1,0 +1,33 @@
+unit Unit11;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, sLabel, sButton, sEdit, DB, DBTables;
+
+type
+  TForm11 = class(TForm)
+    sEdit1: TsEdit;
+    sButton1: TsButton;
+    sLabel1: TsLabel;
+    sLabel2: TsLabel;
+    sLabel3: TsLabel;
+    sEdit2: TsEdit;
+    sEdit3: TsEdit;
+    DataSource1: TDataSource;
+    Table1: TTable;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form11: TForm11;
+
+implementation
+
+{$R *.dfm}
+
+end.
